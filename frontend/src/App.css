@@ -1,0 +1,22 @@
+*{
+    color:#ececec;
+    font-family: Roboto,'Open Sans','Helvetica Neue',sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+body, html {
+  cursor: default; /* Ya pointer */
+  color-scheme: dark; /* Isse browser OS level cursor / icons ko dark mode support deta hai */
+}
+
+.main{
+    background-color:#212121;
+    display: flex;
+    flex-direction:row;
+    width:100vw;
+    height : 100vh;
+}
